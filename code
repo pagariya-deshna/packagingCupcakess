@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int numberOfTestCases,i,j,cupcakes,maxDivisor,maxRemainder;
+	scanf("%d",&numberOfTestCases);
+	fflush(stdin);
+	i=0;
+	while(i<numberOfTestCases)
+	{
+	    scanf("%d",&cupcakes);
+	    fflush(stdin);
+	   //mathematical apprach
+	   printf("%d\n",cupcakes/2 + 1);
+	    i++;
+	}
+	return 0;
+}
